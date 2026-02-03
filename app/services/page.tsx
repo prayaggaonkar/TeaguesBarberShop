@@ -69,32 +69,7 @@ const services = [
       },
     ],
   },
-  {
-    category: "Packages",
-    items: [
-      {
-        name: "Cut & Beard Combo",
-        description:
-          "Complete grooming package combining a classic haircut with a full beard trim and shape.",
-        price: "$50",
-        duration: "45 min",
-      },
-      {
-        name: "The Full Experience",
-        description:
-          "Our signature service: haircut, beard trim, hot towel treatment, and scalp massage.",
-        price: "$75",
-        duration: "60 min",
-      },
-      {
-        name: "Father & Son",
-        description:
-          "Special bonding package for one adult and one child haircut. Great memories included.",
-        price: "$55",
-        duration: "50 min",
-      },
-    ],
-  },
+  
 ];
 
 export default function ServicesPage() {
@@ -169,7 +144,7 @@ export default function ServicesPage() {
           </h2>
           <p className="mx-auto max-w-xl text-muted-foreground leading-relaxed mb-8">
             Book your appointment today and discover why our clients keep coming
-            back. Walk-ins welcome, but appointments are recommended.
+            back. Walk-ins recommended, but appointments are welcome.
           </p>
           <a
             href="https://teaguesbarbershop.glossgenius.com"
