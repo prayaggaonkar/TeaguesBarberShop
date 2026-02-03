@@ -19,8 +19,7 @@ export function HeroSection() {
           <span className="text-accent">Barber Shop</span>
         </h1>
         <p className="mx-auto max-w-xl text-lg text-muted-foreground leading-relaxed mb-12 animate-in fade-in slide-in-from-bottom-4 duration-700 delay-200">
-          Where tradition meets modern craftsmanship. Experience the art of
-          classic barbering in an atmosphere of refined simplicity.
+          Where tradition meets modern craftsmanship. Experience the art of classic barbering in an atmosphere of refined simplicity.
         </p>
         <div className="flex flex-col sm:flex-row items-center justify-center gap-4 animate-in fade-in slide-in-from-bottom-4 duration-700 delay-300">
           <a

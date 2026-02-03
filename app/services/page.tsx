@@ -16,56 +16,56 @@ const services = [
       {
         name: "Classic Haircut",
         description:
-          "A precision cut tailored to your unique style and face shape. Includes consultation, shampoo, and styling.",
-        price: "$35",
+          "A precision cut tailored to your unique style and face shape.",
+        price: "$40",
         duration: "30 min",
-      },
-      {
-        name: "Buzz Cut",
-        description:
-          "Clean and simple. A uniform length all around using clippers for a low-maintenance look.",
-        price: "$25",
-        duration: "20 min",
       },
       {
         name: "Fade",
         description:
           "Seamless gradient from skin to your desired length. Available in low, mid, or high variations.",
         price: "$40",
-        duration: "35 min",
+        duration: "40 min",
       },
       {
-        name: "Kids Haircut",
+        name: "Taper",
         description:
-          "For our younger clients (12 and under). Same precision and care in a relaxed environment.",
-        price: "$25",
-        duration: "25 min",
+          "A smooth taper at the neck and sides that keeps length on top. Available in low, mid, or high variations.",
+        price: "$40",
+        duration: "40 min",
+      },
+      {
+        name: "Kids & Seniors",
+        description:
+          "For our younger clients (12 and under) and seniors. Same precision and care in a relaxed environment.",
+        price: "$33",
+        duration: "35 min",
       },
     ],
   },
   {
-    category: "Beard Services",
+    category: "Additional Services",
     items: [
       {
         name: "Beard Trim",
         description:
-          "Expert shaping and trimming to maintain your beard's best look. Includes line-up and styling.",
+          "Expert shaping and trimming to maintain your beard's best look.",
         price: "$20",
-        duration: "15 min",
+        duration: "20 min",
       },
       {
-        name: "Beard Design",
+        name: "Line Up",
         description:
           "Custom beard shaping with detailed line work and precision edges for a sculpted appearance.",
-        price: "$30",
+        price: "$25",
         duration: "25 min",
       },
       {
-        name: "Hot Towel Shave",
+        name: "Specialized Haircuts",
         description:
-          "The classic barbershop experience. Straight razor shave with hot towels, pre-shave oil, and aftershave balm.",
-        price: "$40",
-        duration: "30 min",
+          "Shear cuts, afro, faux hawks, razor line up.",
+        price: "+$7",
+        duration: "N/A",
       },
     ],
   },

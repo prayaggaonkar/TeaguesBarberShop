@@ -46,11 +46,7 @@ export function AboutSection() {
               <span className="text-accent">Excellence</span>
             </h2>
             <p className="text-muted-foreground leading-relaxed mb-8">
-              At Teague&apos;s Barber Shop, we believe in the power of a great
-              haircut to transform not just your appearance, but your confidence.
-              Founded on the principles of traditional barbering, we&apos;ve
-              built a space where every client receives personalized attention
-              and leaves feeling their absolute best.
+              At Teague's Barber Shop, we believe in the power of a great haircut to transform not just your appearance, but your confidence. Founded on the principles of traditional barbering, we've built a space where every client receives personalized attention and leaves feeling their absolute best.
             </p>
             <p className="text-muted-foreground leading-relaxed mb-12">
               Our skilled barbers combine decades of experience with a genuine
