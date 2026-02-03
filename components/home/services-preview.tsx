@@ -5,22 +5,22 @@ const services = [
   {
     name: "Classic Haircut",
     description: "Precision cut tailored to your style and face shape",
-    price: "$35",
-  },
-  {
-    name: "Beard Trim",
-    description: "Expert shaping and grooming for a polished look",
-    price: "$20",
-  },
-  {
-    name: "Hot Towel Shave",
-    description: "Traditional straight razor shave with hot towel treatment",
     price: "$40",
   },
   {
-    name: "Cut & Beard Combo",
-    description: "Complete grooming package for the modern gentleman",
-    price: "$50",
+    name: "Fade",
+    description: "Seamless gradient from skin to your desired length. Available in low, mid, or high variations.",
+    price: "$40",
+  },
+  {
+    name: "Taper",
+    description: "A smooth taper at the neck and sides that keeps length on top. Available in low, mid, or high variations.",
+    price: "$40",
+  },
+  {
+    name: "Beard Trim",
+    description: "Expert shaping and trimming to maintain your beard's best look.",
+    price: "$20",
   },
 ];
 
