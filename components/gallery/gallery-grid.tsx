@@ -20,6 +20,7 @@ const galleryItems = [
   {
     id: 4,
     category: "Fades",
+    src: "/images/IMG_9933.jpg",
   },
   {
     id: 5,
@@ -32,6 +33,7 @@ const galleryItems = [
   {
     id: 7,
     category: "Fades",
+    src: "/images/IMG_9934.jpg",
   },
   {
     id: 8,
