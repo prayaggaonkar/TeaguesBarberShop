@@ -7,48 +7,39 @@ const galleryItems = [
   {
     id: 1,
     category: "Fades",
-    src: "/images/IMG_8378.jpg",
-    alt: "Classic fade haircut",
+    src: "/images/img_2689.png",
   },
   {
     id: 2,
     category: "Tapers",
-    alt: "Traditional gentleman's cut",
   },
   {
     id: 3,
     category: "Beards",
-    alt: "Beard trim and shape",
   },
   {
     id: 4,
     category: "Fades",
-    alt: "High skin fade",
   },
   {
     id: 5,
     category: "Tapers",
-    alt: "Side part haircut",
   },
   {
     id: 6,
     category: "Beards",
-    alt: "Full beard grooming",
   },
   {
     id: 7,
     category: "Fades",
-    alt: "Mid fade with texture",
   },
   {
     id: 8,
     category: "Tapers",
-    alt: "Pompadour style",
   },
   {
     id: 9,
     category: "Beards",
-    alt: "Beard lineup and fade",
   },
 ];
 
