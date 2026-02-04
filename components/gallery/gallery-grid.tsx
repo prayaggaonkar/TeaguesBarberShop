@@ -12,6 +12,7 @@ const galleryItems = [
   {
     id: 2,
     category: "Tapers",
+    src: "/images/IMG_9936.jpg",
   },
   {
     id: 3,
@@ -25,10 +26,12 @@ const galleryItems = [
   {
     id: 5,
     category: "Tapers",
+    src: "/images/IMG_8378.jpg",
   },
   {
     id: 6,
     category: "Beards",
+    src: "/images/Resized_Screenshot_20260202_080128_Gallery.jpg",
   },
   {
     id: 7,
@@ -38,6 +41,7 @@ const galleryItems = [
   {
     id: 8,
     category: "Tapers",
+    src: "/images/img_2689.png",
   },
   {
     id: 9,
