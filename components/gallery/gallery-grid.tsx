@@ -1,12 +1,13 @@
 "use client";
 
 import { useState } from "react";
+import Image from "next/image";
 
 const galleryItems = [
   {
     id: 1,
     category: "Fades",
-    src: "/images/IMG_2689.JPEG",
+    src: "/images/IMG_8378.jpg",
     alt: "Classic fade haircut",
   },
   {
@@ -68,7 +69,6 @@ export function GalleryGrid() {
         {categories.map((category) => (
           <button
             key={category}
-            type="button"
             onClick={() => setActiveCategory(category)}
             className={`px-6 py-2 text-xs uppercase tracking-widest transition-all duration-300 ${
               activeCategory === category
@@ -86,20 +86,22 @@ export function GalleryGrid() {
         {filteredItems.map((item) => (
           <div
             key={item.id}
-            className="group relative aspect-square bg-secondary overflow-hidden"
+            className="group relative aspect-square overflow-hidden bg-secondary"
           >
-            {/* Image (only renders if src exists) */}
+            {/* Image */}
             {item.src && (
-              <img
+              <Image
                 src={item.src}
                 alt={item.alt}
-                className="absolute inset-0 w-full h-full object-cover"
+                fill
+                priority={item.id === 1}
+                className="object-cover z-0"
               />
             )}
 
-            {/* Placeholder for now */}
+            {/* Placeholder */}
             {!item.src && (
-              <div className="absolute inset-0 flex items-center justify-center">
+              <div className="absolute inset-0 flex items-center justify-center z-0">
                 <span className="text-muted-foreground text-sm uppercase tracking-widest">
                   Image {item.id}
                 </span>
@@ -107,7 +109,7 @@ export function GalleryGrid() {
             )}
 
             {/* Overlay */}
-            <div className="absolute inset-0 bg-background/80 opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-center justify-center">
+            <div className="absolute inset-0 z-10 bg-background/80 opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-center justify-center">
               <div className="text-center px-4">
                 <p className="text-xs uppercase tracking-widest text-accent mb-2">
                   {item.category}
