@@ -17,6 +17,7 @@ const galleryItems = [
   {
     id: 3,
     category: "Beards",
+    src: "/images/IMG_8379.jpg",
   },
   {
     id: 4,
