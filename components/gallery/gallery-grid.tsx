@@ -7,7 +7,7 @@ const galleryItems = [
   {
     id: 1,
     category: "Fades",
-    src: "/images/IMG_2689.JPEG",
+    src: "/images/IMG_8378.jpg",
     alt: "Classic fade haircut",
   },
   {
