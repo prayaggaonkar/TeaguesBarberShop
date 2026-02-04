@@ -14,7 +14,7 @@ const galleryItems = [
   { id: 9, category: "Beards", alt: "Beard lineup and fade" },
 ];
 
-const categories = ["All", "Fades", "Classic Cuts", "Beards"];
+const categories = ["All", "Fades", "Tapers", "Beards"];
 
 export function GalleryGrid() {
   const [activeCategory, setActiveCategory] = useState("All");
