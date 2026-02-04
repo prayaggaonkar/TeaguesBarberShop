@@ -173,7 +173,7 @@ export default function ServicesPage() {
             href="https://teaguesbarbershop.glossgenius.com"
             target="_blank"
             rel="noopener noreferrer"
-            className="group inline-flex items-center gap-2 px-8 py-4 bg-barber-red text-white text-sm uppercase tracking-widest hover:bg-barber-red/90 transition-all duration-300 shadow-lg shadow-barber-red/20"
+            className="group inline-flex items-center gap-2 px-8 py-4 text-white text-sm uppercase tracking-widest hover:bg-barber-red/90 transition-all duration-300 shadow-lg shadow-barber-red/20 bg-accent"
           >
             Book Your Appointment
             <ArrowRight className="h-4 w-4 group-hover:translate-x-1 transition-transform" />

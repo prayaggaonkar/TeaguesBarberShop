@@ -60,7 +60,7 @@ export function HeroSection() {
           </a>
           <a
             href="/services"
-            className="inline-flex items-center gap-2 px-8 py-4 border border-barber-blue/50 text-foreground text-sm uppercase tracking-widest hover:bg-barber-blue/10 hover:border-barber-blue transition-colors duration-300"
+            className="inline-flex items-center gap-2 px-8 py-4 border text-foreground text-sm uppercase tracking-widest hover:bg-barber-blue/10 hover:border-barber-blue transition-colors duration-300 border-accent"
           >
             View Services
           </a>

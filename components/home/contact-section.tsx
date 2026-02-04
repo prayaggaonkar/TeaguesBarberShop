@@ -4,7 +4,7 @@ export function ContactSection() {
   return (
     <section className="py-32 bg-background relative">
       {/* Decorative top border */}
-      <div className="absolute top-0 left-0 right-0 h-1 bg-gradient-to-r from-barber-blue via-white to-barber-red" />
+      
       
       <div className="mx-auto max-w-7xl px-6 lg:px-8">
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-16">
