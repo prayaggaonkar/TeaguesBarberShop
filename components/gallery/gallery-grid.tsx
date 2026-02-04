@@ -3,7 +3,7 @@
 import { useState } from "react";
 
 const galleryItems = [
-  { id: 1, category: "Fades", alt: "Classic fade haircut" },
+  { id: 1, category: "Fades", src: "/images/IMG_2689.JPEG", alt: "Classic fade haircut" },
   { id: 2, category: "Classic Cuts", alt: "Traditional gentleman's cut" },
   { id: 3, category: "Beards", alt: "Beard trim and shape" },
   { id: 4, category: "Fades", alt: "High skin fade" },
