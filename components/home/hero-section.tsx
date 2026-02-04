@@ -60,17 +60,14 @@ export function HeroSection() {
           </a>
           <a
             href="/services"
-            className="inline-flex items-center gap-2 px-8 py-4 border text-foreground text-sm uppercase tracking-widest hover:bg-barber-blue/10 hover:border-barber-blue transition-colors duration-300 border-accent"
+            className="inline-flex items-center gap-2 px-8 py-4 border text-foreground text-sm uppercase tracking-widest hover:bg-barber-red/10 hover:border-barber-red hover:text-barber-red transition-colors duration-300 border-accent"
           >
             View Services
           </a>
         </div>
       </div>
 
-      {/* Scroll indicator with barber colors */}
-      <div className="absolute bottom-8 left-1/2 -translate-x-1/2 animate-bounce">
-        <div className="w-1 h-16 rounded-full bg-gradient-to-b from-barber-red via-white to-barber-blue opacity-60" />
-      </div>
+      
     </section>
   );
 }
