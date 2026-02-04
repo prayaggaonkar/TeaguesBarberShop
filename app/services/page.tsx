@@ -89,7 +89,7 @@ export default function ServicesPage() {
           <h1 className="font-serif text-5xl lg:text-6xl tracking-tight text-foreground mb-6 text-balance">
             Crafted for the
             <br />
-            <span className="bg-gradient-to-r from-barber-red via-accent to-barber-blue bg-clip-text text-transparent">Modern Gentleman</span>
+            <span className="bg-gradient-to-r from-barber-red via-accent to-barber-blue bg-clip-text text-destructive">Modern Gentleman</span>
           </h1>
           {/* Decorative line */}
           <div className="flex items-center gap-2 mb-6">

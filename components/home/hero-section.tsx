@@ -34,11 +34,7 @@ export function HeroSection() {
       <div className="relative z-10 mx-auto max-w-7xl px-6 lg:px-8 py-32 text-center">
         {/* Logo */}
         <div className="mb-8 animate-in fade-in zoom-in-95 duration-700">
-          <img 
-            src="/images/Logo.PNG" 
-            alt="Teague's Barber Shop Logo" 
-            className="mx-auto h-40 w-40 md:h-52 md:w-52 object-contain drop-shadow-2xl"
-          />
+          
         </div>
 
         <p className="text-xs uppercase tracking-[0.4em] text-accent mb-6 animate-in fade-in slide-in-from-bottom-4 duration-700">
@@ -47,7 +43,7 @@ export function HeroSection() {
         <h1 className="font-serif text-5xl sm:text-6xl lg:text-7xl xl:text-8xl tracking-tight text-foreground mb-8 text-balance animate-in fade-in slide-in-from-bottom-4 duration-700 delay-100">
           Teague&apos;s
           <br />
-          <span className="bg-gradient-to-r from-barber-red via-accent to-barber-blue bg-clip-text text-transparent">Barber Shop</span>
+          <span className="bg-gradient-to-r from-barber-red via-accent to-barber-blue bg-clip-text text-accent">Barber Shop</span>
         </h1>
         <p className="mx-auto max-w-xl text-lg text-muted-foreground leading-relaxed mb-12 animate-in fade-in slide-in-from-bottom-4 duration-700 delay-200">
           Where tradition meets modern craftsmanship. Experience the art of classic barbering in an atmosphere of refined simplicity.
@@ -57,7 +53,7 @@ export function HeroSection() {
             href="https://teaguesbarbershop.glossgenius.com"
             target="_blank"
             rel="noopener noreferrer"
-            className="group inline-flex items-center gap-2 px-8 py-4 bg-barber-red text-white text-sm uppercase tracking-widest hover:bg-barber-red/90 transition-all duration-300 shadow-lg shadow-barber-red/20"
+            className="group inline-flex items-center gap-2 px-8 py-4 text-white text-sm uppercase tracking-widest hover:bg-barber-red/90 transition-all duration-300 shadow-lg shadow-barber-red/20 bg-accent"
           >
             Book Your Appointment
             <ArrowRight className="h-4 w-4 group-hover:translate-x-1 transition-transform" />

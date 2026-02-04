@@ -27,7 +27,7 @@ export default function GalleryPage() {
           <h1 className="font-serif text-5xl lg:text-6xl tracking-tight text-foreground mb-6 text-balance">
             The Art of
             <br />
-            <span className="bg-gradient-to-r from-barber-blue via-accent to-barber-red bg-clip-text text-transparent">The Cut</span>
+            <span className="bg-gradient-to-r from-barber-blue via-accent to-barber-red bg-clip-text bg-[rgba(114,14,14,1)] text-destructive">The Haircut</span>
           </h1>
           {/* Decorative line */}
           <div className="flex items-center gap-2 mb-6">
