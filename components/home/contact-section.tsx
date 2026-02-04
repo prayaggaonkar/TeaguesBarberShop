@@ -2,7 +2,10 @@ import { MapPin, Phone, Clock, ArrowRight } from "lucide-react";
 
 export function ContactSection() {
   return (
-    <section className="py-32 bg-background">
+    <section className="py-32 bg-background relative">
+      {/* Decorative top border */}
+      
+      
       <div className="mx-auto max-w-7xl px-6 lg:px-8">
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-16">
           {/* Info */}
@@ -17,9 +20,9 @@ export function ContactSection() {
             </h2>
 
             <div className="space-y-8 mb-12">
-              <div className="flex gap-4">
-                <div className="flex-shrink-0 w-12 h-12 bg-secondary flex items-center justify-center">
-                  <MapPin className="h-5 w-5 text-accent" />
+              <div className="flex gap-4 group">
+                <div className="flex-shrink-0 w-12 h-12 bg-secondary flex items-center justify-center border-l-2 border-barber-red group-hover:bg-barber-red/10 transition-colors">
+                  <MapPin className="h-5 w-5 text-barber-red" />
                 </div>
                 <div>
                   <h3 className="text-sm uppercase tracking-widest text-foreground mb-2">
@@ -38,9 +41,9 @@ export function ContactSection() {
                 </div>
               </div>
 
-              <div className="flex gap-4">
-                <div className="flex-shrink-0 w-12 h-12 bg-secondary flex items-center justify-center">
-                  <Phone className="h-5 w-5 text-accent" />
+              <div className="flex gap-4 group">
+                <div className="flex-shrink-0 w-12 h-12 bg-secondary flex items-center justify-center border-l-2 border-barber-blue group-hover:bg-barber-blue/10 transition-colors">
+                  <Phone className="h-5 w-5 text-barber-blue" />
                 </div>
                 <div>
                   <h3 className="text-sm uppercase tracking-widest text-foreground mb-2">
@@ -55,8 +58,8 @@ export function ContactSection() {
                 </div>
               </div>
 
-              <div className="flex gap-4">
-                <div className="flex-shrink-0 w-12 h-12 bg-secondary flex items-center justify-center">
+              <div className="flex gap-4 group">
+                <div className="flex-shrink-0 w-12 h-12 bg-secondary flex items-center justify-center border-l-2 border-accent group-hover:bg-accent/10 transition-colors">
                   <Clock className="h-5 w-5 text-accent" />
                 </div>
                 <div>
@@ -76,7 +79,7 @@ export function ContactSection() {
               href="https://teaguesbarbershop.glossgenius.com"
               target="_blank"
               rel="noopener noreferrer"
-              className="group inline-flex items-center gap-2 px-8 py-4 bg-accent text-accent-foreground text-sm uppercase tracking-widest hover:bg-accent/90 transition-all duration-300"
+              className="group inline-flex items-center gap-2 px-8 py-4 text-white text-sm uppercase tracking-widest hover:bg-barber-red/90 transition-all duration-300 shadow-lg shadow-barber-red/20 bg-accent"
             >
               Book Your Appointment
               <ArrowRight className="h-4 w-4 group-hover:translate-x-1 transition-transform" />

@@ -65,14 +65,14 @@ export function GalleryGrid() {
     <div>
       {/* Filter */}
       <div className="flex flex-wrap gap-4 mb-12">
-        {categories.map((category) => (
+        {categories.map((category, index) => (
           <button
             key={category}
             onClick={() => setActiveCategory(category)}
-            className={`px-6 py-2 text-xs uppercase tracking-widest transition-all duration-300 ${
+            className={`px-6 py-2 text-xs uppercase tracking-widest transition-all duration-300 relative overflow-hidden ${
               activeCategory === category
-                ? "bg-accent text-accent-foreground"
-                : "bg-secondary text-muted-foreground hover:text-foreground"
+                ? "bg-barber-red text-white"
+                : "bg-secondary text-muted-foreground hover:text-foreground hover:border-barber-blue/50 border border-transparent"
             }`}
           >
             {category}
@@ -82,15 +82,18 @@ export function GalleryGrid() {
 
       {/* Grid */}
       <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
-        {filteredItems.map((item) => (
+        {filteredItems.map((item, index) => (
           <div
             key={item.id}
             className="group relative aspect-square overflow-hidden bg-secondary"
           >
+            {/* Corner accent on hover */}
+            <div className={`absolute top-0 left-0 w-0 h-0.5 ${index % 2 === 0 ? 'bg-barber-red' : 'bg-barber-blue'} group-hover:w-full transition-all duration-300 z-20`} />
+            <div className={`absolute top-0 left-0 w-0.5 h-0 ${index % 2 === 0 ? 'bg-barber-red' : 'bg-barber-blue'} group-hover:h-full transition-all duration-300 z-20`} />
             {/* Image */}
             {item.src && (
               <Image
-                src={item.src}
+                src={item.src || "/placeholder.svg"}
                 alt={item.alt}
                 fill
                 priority={item.id === 1}

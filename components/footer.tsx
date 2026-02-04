@@ -8,13 +8,20 @@ export function Footer() {
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-12">
           {/* Brand */}
           <div className="lg:col-span-1">
-            <Link href="/" className="flex flex-col">
-              <span className="font-serif text-2xl tracking-wide text-foreground">
-                Teague&apos;s
-              </span>
-              <span className="text-[10px] uppercase tracking-[0.3em] text-muted-foreground">
-                Barber Shop
-              </span>
+            <Link href="/" className="flex items-center gap-3">
+              <img 
+                src="/images/Logo.PNG" 
+                alt="Teague's Barber Shop Logo" 
+                className="h-16 w-16 object-contain"
+              />
+              <div className="flex flex-col">
+                <span className="font-serif text-2xl tracking-wide text-foreground">
+                  Teague&apos;s
+                </span>
+                <span className="text-[10px] uppercase tracking-[0.3em] text-muted-foreground">
+                  Barber Shop
+                </span>
+              </div>
             </Link>
             <p className="mt-6 text-sm text-muted-foreground leading-relaxed">
               A legacy of craftsmanship since day one. Where tradition meets
@@ -104,8 +111,11 @@ export function Footer() {
           </div>
         </div>
 
+        {/* Decorative stripe */}
+        <div className="mt-16 h-1 bg-gradient-to-r from-barber-red via-white to-barber-blue" />
+        
         {/* Bottom */}
-        <div className="mt-16 pt-8 border-t border-border flex flex-col md:flex-row justify-between items-center gap-4">
+        <div className="pt-8 flex flex-col md:flex-row justify-between items-center gap-4">
           <p className="text-xs text-muted-foreground">
             &copy; {new Date().getFullYear()} Teague&apos;s Barber Shop. All
             rights reserved.

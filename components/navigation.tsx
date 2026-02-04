@@ -17,13 +17,20 @@ export function Navigation() {
     <header className="fixed top-0 left-0 right-0 z-50 bg-background/80 backdrop-blur-md border-b border-border">
       <nav className="mx-auto max-w-7xl px-6 lg:px-8">
         <div className="flex h-20 items-center justify-between">
-          <Link href="/" className="flex flex-col">
-            <span className="font-serif text-2xl tracking-wide text-foreground">
-              Teague&apos;s
-            </span>
-            <span className="text-[10px] uppercase tracking-[0.3em] text-muted-foreground">
-              Barber Shop
-            </span>
+          <Link href="/" className="flex items-center gap-3">
+            <img 
+              src="/images/Logo.PNG" 
+              alt="Teague's Barber Shop Logo" 
+              className="h-12 w-12 object-contain"
+            />
+            <div className="flex flex-col">
+              <span className="font-serif text-2xl tracking-wide text-foreground">
+                Teague&apos;s
+              </span>
+              <span className="text-[10px] uppercase tracking-[0.3em] text-muted-foreground">
+                Barber Shop
+              </span>
+            </div>
           </Link>
 
           {/* Desktop Navigation */}
