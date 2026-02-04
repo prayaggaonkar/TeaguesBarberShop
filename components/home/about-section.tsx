@@ -29,7 +29,7 @@ export function AboutSection() {
           {/* Image */}
           <div className="relative aspect-[4/5] bg-secondary overflow-hidden">
             <img
-              src="/images/img-9932-203.jpg"
+              src="/images/img-9932-2 3.jpg"
               alt="Client with fresh cornrow braids at Teague's Barber Shop"
               className="absolute inset-0 w-full h-full object-cover"
             />
