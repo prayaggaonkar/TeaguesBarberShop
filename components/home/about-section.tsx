@@ -26,13 +26,13 @@ export function AboutSection() {
     <section className="py-32 bg-background">
       <div className="mx-auto max-w-7xl px-6 lg:px-8">
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-16 lg:gap-24 items-center">
-          {/* Image placeholder */}
+          {/* Image */}
           <div className="relative aspect-[4/5] bg-secondary overflow-hidden">
-            <div className="absolute inset-0 flex items-center justify-center">
-              <span className="text-muted-foreground text-sm uppercase tracking-widest">
-                Image Placeholder
-              </span>
-            </div>
+            <img
+              src="/images/img-9932-203.jpg"
+              alt="Client with fresh cornrow braids at Teague's Barber Shop"
+              className="absolute inset-0 w-full h-full object-cover"
+            />
           </div>
 
           {/* Content */}
