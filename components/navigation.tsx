@@ -19,7 +19,7 @@ export function Navigation() {
         <div className="flex h-20 items-center justify-between">
           <Link href="/" className="flex items-center gap-3">
             <img 
-              src="/images/Logo.PNG" 
+              src="/images/LogoFix.png" 
               alt="Teague's Barber Shop Logo" 
               className="h-12 w-12 object-contain"
             />
