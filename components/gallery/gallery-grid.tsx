@@ -42,7 +42,7 @@ const galleryItems = [
   {
     id: 8,
     category: "Tapers",
-    src: "/images/img_2689.png",
+    src: "/images/Resized_Screenshot_20260202_080635_Gallery.jpg",
   },
   {
     id: 9,
