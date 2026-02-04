@@ -21,7 +21,7 @@ const galleryItems = [
   {
     id: 4,
     category: "Fades",
-    src: "/images/IMG_9933.jpg",
+    src: "/images/IMG_9937.jpg",
   },
   {
     id: 5,
@@ -46,6 +46,7 @@ const galleryItems = [
   {
     id: 9,
     category: "Beards",
+    src: "/images/IMG_9933.jpg",
   },
 ];
 
