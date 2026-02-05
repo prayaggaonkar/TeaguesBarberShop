@@ -57,7 +57,7 @@ export function AboutSection() {
               <span className="text-accent">Excellence</span>
             </h2>
             <p className="text-muted-foreground leading-relaxed mb-8">
-              With decades of experience, Teague&apos;s Barbershop has served the Tri-Valley with pristine haircuts for years. Full of lively music, engaging barbers, and a community like no other, Teague's is the spot for you.      
+              With decades of experience, Teague's Barbershop has served the Tri-Valley with pristine haircuts for years. Full of lively music, engaging barbers, and a community like no other, Teague's is the spot for you.      
             </p>
             <p className="text-muted-foreground leading-relaxed mb-12">
               Our skilled barbers combine decades of experience with a genuine
