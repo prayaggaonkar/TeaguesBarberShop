@@ -10,7 +10,7 @@ export function Footer() {
           <div className="lg:col-span-1">
             <Link href="/" className="flex items-center gap-3">
               <img 
-                src="/images/Logo.PNG" 
+                src="/images/LogoFix.png" 
                 alt="Teague's Barber Shop Logo" 
                 className="h-16 w-16 object-contain"
               />
