@@ -24,19 +24,23 @@ export function BookingPopup({ children, className }: BookingPopupProps) {
       </button>
 
       {isOpen && (
-        <div className="fixed inset-0 z-[100] flex items-center justify-center p-4">
-          {/* Backdrop */}
-          <div
-            className="absolute inset-0 bg-black/60 backdrop-blur-sm"
-            onClick={() => setIsOpen(false)}
-            onKeyDown={(e) => e.key === "Escape" && setIsOpen(false)}
-            role="button"
-            tabIndex={0}
-            aria-label="Close popup"
-          />
+        <div 
+          className="fixed inset-0 z-[100] flex items-center justify-center p-4 bg-black/60 backdrop-blur-sm"
+          onClick={() => setIsOpen(false)}
+          onKeyDown={(e) => e.key === "Escape" && setIsOpen(false)}
+          role="button"
+          tabIndex={0}
+          aria-label="Close popup"
+        >
 
           {/* Popup */}
-          <div className="relative bg-card border border-border p-8 sm:p-10 max-w-md w-full animate-in fade-in zoom-in-95 duration-200">
+          <div 
+            className="relative bg-card border border-border p-8 sm:p-10 max-w-md w-full animate-in fade-in zoom-in-95 duration-200"
+            onClick={(e) => e.stopPropagation()}
+            onKeyDown={(e) => e.stopPropagation()}
+            role="dialog"
+            aria-modal="true"
+          >
             {/* Close button */}
             <button
               type="button"
@@ -64,13 +68,12 @@ export function BookingPopup({ children, className }: BookingPopupProps) {
 
               <a
                 href="tel:+19257847549"
-                className="group inline-flex items-center gap-3 px-8 py-4 bg-accent text-accent-foreground text-lg font-semibold tracking-wide hover:bg-accent/90 transition-all duration-300 w-full justify-center"
+                className="inline-block text-accent text-2xl font-bold tracking-wide hover:text-accent/80 transition-colors"
               >
                 (925) 784-7549
-                <ArrowRight className="h-4 w-4 group-hover:translate-x-1 transition-transform" />
               </a>
 
-              <p className="mt-4 text-xs text-muted-foreground">
+              <p className="mt-6 text-xs text-muted-foreground">
                 Walk-ins recommended, but appointments are welcome.
               </p>
             </div>
