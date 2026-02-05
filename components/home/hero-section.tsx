@@ -37,7 +37,7 @@ export function HeroSection() {
           <span>Barber Shop</span>
         </h1>
         <p className="mx-auto max-w-xl text-lg leading-relaxed mb-12 animate-in fade-in slide-in-from-bottom-4 duration-700 delay-200 text-background font-semibold">
-          Where tradition meets modern craftsmanship. Experience the art of classic barbering in an atmosphere of refined simplicity.
+          {"Best Barbershop in the Tri-Valley. Established in 1991."}
         </p>
         <div className="flex flex-col sm:flex-row items-center justify-center gap-4 animate-in fade-in slide-in-from-bottom-4 duration-700 delay-300">
           <a
