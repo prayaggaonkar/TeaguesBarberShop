@@ -3,25 +3,16 @@ import { ArrowRight } from "lucide-react";
 export function HeroSection() {
   return (
     <section className="relative min-h-screen flex items-center justify-center pt-20">
-      {/* Background with subtle pattern */}
-      <div className="absolute inset-0 bg-secondary" aria-hidden="true">
-        <div 
-          className="absolute inset-0 opacity-5"
-          style={{
-            backgroundImage: `repeating-linear-gradient(
-              45deg,
-              transparent 0px,
-              transparent 20px,
-              #0f4c81 20px,
-              #0f4c81 21px,
-              transparent 21px,
-              transparent 41px,
-              #c41e3a 41px,
-              #c41e3a 42px
-            )`,
-          }}
+      {/* Background image with dark overlay */}
+      <div className="absolute inset-0" aria-hidden="true">
+        <img
+          src="/images/TeaguesBackground.jpeg"
+          alt=""
+          className="absolute inset-0 w-full h-full object-cover"
         />
-        <div className="absolute inset-0 bg-gradient-to-b from-background/60 via-background/30 to-background" />
+
+        {/* Bottom gradient to blend into the charcoal background below */}
+        <div className="absolute inset-0 bg-gradient-to-b from-transparent via-transparent to-background" />
       </div>
 
       {/* Decorative corner accents */}
