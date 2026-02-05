@@ -2,6 +2,7 @@ import { Metadata } from "next";
 import { Navigation } from "@/components/navigation";
 import { Footer } from "@/components/footer";
 import { ArrowRight } from "lucide-react";
+import { BookingPopup } from "@/components/booking-popup";
 
 export const metadata: Metadata = {
   title: "Services | Teague's Barber Shop",
@@ -87,9 +88,9 @@ export default function ServicesPage() {
             Our Services
           </p>
           <h1 className="font-serif text-5xl lg:text-6xl tracking-tight text-foreground mb-6 text-balance">
-            Crafted for the
+            Crafted for
             <br />
-            <span className="bg-gradient-to-r from-barber-red via-accent to-barber-blue bg-clip-text text-destructive">Modern Gentleman</span>
+            <span className="bg-gradient-to-r from-barber-red via-accent to-barber-blue bg-clip-text text-destructive">Every Customer </span>
           </h1>
           {/* Decorative line */}
           <div className="flex items-center gap-2 mb-6">
@@ -169,15 +170,10 @@ export default function ServicesPage() {
             Book your appointment today and discover why our clients keep coming
             back. Walk-ins recommended, but appointments are welcome.
           </p>
-          <a
-            href="https://teaguesbarbershop.glossgenius.com"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="group inline-flex items-center gap-2 px-8 py-4 text-white text-sm uppercase tracking-widest hover:bg-barber-red/90 transition-all duration-300 shadow-lg shadow-barber-red/20 bg-accent"
-          >
+          <BookingPopup className="group inline-flex items-center gap-2 px-8 py-4 text-white text-sm uppercase tracking-widest hover:bg-barber-red/90 transition-all duration-300 shadow-lg shadow-barber-red/20 bg-accent">
             Book Your Appointment
             <ArrowRight className="h-4 w-4 group-hover:translate-x-1 transition-transform" />
-          </a>
+          </BookingPopup>
         </div>
       </section>
 

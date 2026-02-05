@@ -57,7 +57,7 @@ export function AboutSection() {
               <span className="text-accent">Excellence</span>
             </h2>
             <p className="text-muted-foreground leading-relaxed mb-8">
-              At Teague's Barber Shop, we believe in the power of a great haircut to transform not just your appearance, but your confidence. Founded on the principles of traditional barbering, we've built a space where every client receives personalized attention and leaves feeling their absolute best.
+              Since 1991, Teague&apos;s Barbershop has served the Tri-Valley with pristine haircuts for years. Full of lively music, engaging barbers, and a community like no other, Teague&apos;s is the spot for you.      
             </p>
             <p className="text-muted-foreground leading-relaxed mb-12">
               Our skilled barbers combine decades of experience with a genuine

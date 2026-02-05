@@ -3,6 +3,7 @@ import { Navigation } from "@/components/navigation";
 import { Footer } from "@/components/footer";
 import { GalleryGrid } from "@/components/gallery/gallery-grid";
 import { ArrowRight } from "lucide-react";
+import { BookingPopup } from "@/components/booking-popup";
 
 export const metadata: Metadata = {
   title: "Gallery | Teague's Barber Shop",
@@ -71,15 +72,10 @@ export default function GalleryPage() {
             Let us help you find your perfect look. Book your appointment and
             experience the Teague&apos;s difference.
           </p>
-          <a
-            href="https://teaguesbarbershop.glossgenius.com"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="group inline-flex items-center gap-2 px-8 py-4 bg-barber-red text-white text-sm uppercase tracking-widest hover:bg-barber-red/90 transition-all duration-300 shadow-lg shadow-barber-red/20"
-          >
+          <BookingPopup className="group inline-flex items-center gap-2 px-8 py-4 bg-barber-red text-white text-sm uppercase tracking-widest hover:bg-barber-red/90 transition-all duration-300 shadow-lg shadow-barber-red/20">
             Book Your Appointment
             <ArrowRight className="h-4 w-4 group-hover:translate-x-1 transition-transform" />
-          </a>
+          </BookingPopup>
         </div>
       </section>
 

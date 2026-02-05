@@ -71,12 +71,12 @@ export function Footer() {
               <li className="flex items-start gap-3">
                 <MapPin className="h-4 w-4 text-accent mt-0.5 shrink-0" />
                 <a
-                  href="https://maps.google.com/?q=7106+Dublin+Blvd,+Dublin,+CA+94568"
+                  href="https://maps.google.com/?q=7000+Village+Pkwy+J,+Dublin,+CA+94568"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="text-sm text-muted-foreground hover:text-foreground transition-colors"
                 >
-                  7106 Dublin Blvd
+                  7000 Village Pkwy J
                   <br />
                   Dublin, CA 94568
                 </a>
@@ -84,10 +84,10 @@ export function Footer() {
               <li className="flex items-center gap-3">
                 <Phone className="h-4 w-4 text-accent shrink-0" />
                 <a
-                  href="tel:+19253802797"
+                  href="tel:+19257847549"
                   className="text-sm text-muted-foreground hover:text-foreground transition-colors"
                 >
-                  (925) 380-2797
+                  (925) 784-7549
                 </a>
               </li>
             </ul>
