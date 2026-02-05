@@ -28,13 +28,13 @@ export function HeroSection() {
           
         </div>
 
-        <p className="text-sm sm:text-base uppercase tracking-[0.4em] mb-6 animate-in fade-in slide-in-from-bottom-4 duration-700 text-background font-black border-0 leading-7">
+        <p className="text-sm sm:text-base uppercase tracking-[0.4em] mb-6 animate-in fade-in slide-in-from-bottom-4 duration-700 font-black border-0 leading-7 text-background">
           Dublin, California
         </p>
-        <h1 className="font-serif text-5xl sm:text-6xl lg:text-7xl xl:text-8xl tracking-tight mb-8 text-balance animate-in fade-in slide-in-from-bottom-4 duration-700 delay-100 text-background font-bold">
+        <h1 className="text-5xl sm:text-6xl lg:text-7xl xl:text-8xl tracking-tight mb-8 text-balance animate-in fade-in slide-in-from-bottom-4 duration-700 delay-100 font-bold font-serif text-[rgba(66,46,13,1)]">
           Teague&apos;s
           <br />
-          <span className="bg-gradient-to-r from-barber-red via-accent to-barber-blue bg-clip-text text-accent font-bold">Barber Shop</span>
+          <span className="bg-gradient-to-r from-barber-red via-accent to-barber-blue bg-clip-text font-bold text-[rgba(68,46,13,1)] shadow-none">Barber Shop</span>
         </h1>
         <p className="mx-auto max-w-xl text-lg leading-relaxed mb-12 animate-in fade-in slide-in-from-bottom-4 duration-700 delay-200 text-background font-semibold">
           Where tradition meets modern craftsmanship. Experience the art of classic barbering in an atmosphere of refined simplicity.
