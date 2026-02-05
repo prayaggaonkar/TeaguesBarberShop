@@ -32,8 +32,8 @@ export function HeroSection() {
           Dublin, California
         </p>
         <h1
-          className="text-5xl sm:text-6xl lg:text-7xl xl:text-8xl tracking-tight mb-8 text-balance animate-in fade-in slide-in-from-bottom-4 duration-700 delay-100 font-bold font-serif text-black"
-          style={{ WebkitTextStroke: '2px #c9a96c', paintOrder: 'stroke fill' }}
+          className="text-5xl sm:text-6xl lg:text-7xl xl:text-8xl tracking-tight mb-8 text-balance animate-in fade-in slide-in-from-bottom-4 duration-700 delay-100 font-bold font-serif text-accent"
+          style={{ WebkitTextStroke: '2px #000000', paintOrder: 'stroke fill' }}
         >
           Teague&apos;s
           <br />
