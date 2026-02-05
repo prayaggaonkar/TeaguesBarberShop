@@ -1,4 +1,5 @@
 import { MapPin, Phone, Clock, ArrowRight } from "lucide-react";
+import { BookingDialog } from "@/components/booking-dialog";
 
 export function ContactSection() {
   return (
@@ -29,12 +30,12 @@ export function ContactSection() {
                     Location
                   </h3>
                   <a
-                    href="https://maps.google.com/?q=7106+Dublin+Blvd,+Dublin,+CA+94568"
+                    href="https://maps.google.com/?q=7000+Village+Pkwy+J,+Dublin,+CA+94568"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="text-muted-foreground hover:text-foreground transition-colors"
                   >
-                    7106 Dublin Blvd
+                    7000 Village Pkwy J
                     <br />
                     Dublin, CA 94568
                   </a>
@@ -50,10 +51,10 @@ export function ContactSection() {
                     Phone
                   </h3>
                   <a
-                    href="tel:+19253802797"
+                    href="tel:+19257847549"
                     className="text-muted-foreground hover:text-foreground transition-colors"
                   >
-                    (925) 380-2797
+                    (925) 784-7549
                   </a>
                 </div>
               </div>
@@ -75,21 +76,16 @@ export function ContactSection() {
               </div>
             </div>
 
-            <a
-              href="https://teaguesbarbershop.glossgenius.com"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="group inline-flex items-center gap-2 px-8 py-4 text-white text-sm uppercase tracking-widest hover:bg-barber-red/90 transition-all duration-300 shadow-lg shadow-barber-red/20 bg-accent"
-            >
+            <BookingDialog className="group inline-flex items-center gap-2 px-8 py-4 text-white text-sm uppercase tracking-widest hover:bg-barber-red/90 transition-all duration-300 shadow-lg shadow-barber-red/20 bg-accent">
               Book Your Appointment
               <ArrowRight className="h-4 w-4 group-hover:translate-x-1 transition-transform" />
-            </a>
+            </BookingDialog>
           </div>
 
           {/* Map placeholder */}
           <div className="relative aspect-square lg:aspect-auto bg-secondary overflow-hidden">
             <iframe
-              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3156.5!2d-121.9252!3d37.7033!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x808fec5f9f5e3d59%3A0x0!2s7106%20Dublin%20Blvd%2C%20Dublin%2C%20CA%2094568!5e0!3m2!1sen!2sus!4v1706472000000!5m2!1sen!2sus"
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3156.5!2d-121.9358!3d37.7084!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x808fec5f9f5e3d59%3A0x0!2s7000%20Village%20Pkwy%20J%2C%20Dublin%2C%20CA%2094568!5e0!3m2!1sen!2sus!4v1706472000000!5m2!1sen!2sus"
               width="100%"
               height="100%"
               style={{ border: 0, minHeight: "400px" }}

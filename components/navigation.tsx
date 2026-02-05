@@ -3,6 +3,7 @@
 import Link from "next/link";
 import { useState } from "react";
 import { Menu, X } from "lucide-react";
+import { BookingDialog } from "@/components/booking-dialog";
 
 const navLinks = [
   { href: "/", label: "Home" },
@@ -44,14 +45,9 @@ export function Navigation() {
                 {link.label}
               </Link>
             ))}
-            <a
-              href="https://teaguesbarbershop.glossgenius.com"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="ml-4 px-6 py-2.5 bg-accent text-accent-foreground text-sm uppercase tracking-widest hover:bg-accent/90 transition-colors duration-300"
-            >
+            <BookingDialog className="ml-4 px-6 py-2.5 bg-accent text-accent-foreground text-sm uppercase tracking-widest hover:bg-accent/90 transition-colors duration-300">
               Book Now
-            </a>
+            </BookingDialog>
           </div>
 
           {/* Mobile Menu Button */}
@@ -79,14 +75,9 @@ export function Navigation() {
                   {link.label}
                 </Link>
               ))}
-              <a
-                href="https://teaguesbarbershop.glossgenius.com"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="mt-2 px-6 py-3 bg-accent text-accent-foreground text-sm uppercase tracking-widest text-center hover:bg-accent/90 transition-colors"
-              >
+              <BookingDialog className="mt-2 px-6 py-3 bg-accent text-accent-foreground text-sm uppercase tracking-widest text-center hover:bg-accent/90 transition-colors">
                 Book Now
-              </a>
+              </BookingDialog>
             </div>
           </div>
         )}
