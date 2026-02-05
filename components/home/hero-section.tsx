@@ -28,15 +28,15 @@ export function HeroSection() {
           
         </div>
 
-        <p className="text-xs uppercase tracking-[0.4em] mb-6 animate-in fade-in slide-in-from-bottom-4 duration-700 text-background font-black border-0 leading-7">
+        <p className="text-sm sm:text-base uppercase tracking-[0.4em] mb-6 animate-in fade-in slide-in-from-bottom-4 duration-700 text-background font-black border-0 leading-7">
           Dublin, California
         </p>
-        <h1 className="font-serif text-5xl sm:text-6xl lg:text-7xl xl:text-8xl tracking-tight mb-8 text-balance animate-in fade-in slide-in-from-bottom-4 duration-700 delay-100 text-background">
+        <h1 className="font-serif text-5xl sm:text-6xl lg:text-7xl xl:text-8xl tracking-tight mb-8 text-balance animate-in fade-in slide-in-from-bottom-4 duration-700 delay-100 text-background font-bold">
           Teague&apos;s
           <br />
-          <span className="bg-gradient-to-r from-barber-red via-accent to-barber-blue bg-clip-text text-accent">Barber Shop</span>
+          <span className="bg-gradient-to-r from-barber-red via-accent to-barber-blue bg-clip-text text-accent font-bold">Barber Shop</span>
         </h1>
-        <p className="mx-auto max-w-xl text-lg leading-relaxed mb-12 animate-in fade-in slide-in-from-bottom-4 duration-700 delay-200 text-background">
+        <p className="mx-auto max-w-xl text-lg leading-relaxed mb-12 animate-in fade-in slide-in-from-bottom-4 duration-700 delay-200 text-background font-semibold">
           Where tradition meets modern craftsmanship. Experience the art of classic barbering in an atmosphere of refined simplicity.
         </p>
         <div className="flex flex-col sm:flex-row items-center justify-center gap-4 animate-in fade-in slide-in-from-bottom-4 duration-700 delay-300">
