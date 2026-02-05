@@ -11,6 +11,8 @@ export function HeroSection() {
           className="absolute inset-0 w-full h-full object-cover"
         />
 
+        {/* Subtle dark overlay for text readability */}
+        <div className="absolute inset-0 bg-black/40" />
         {/* Bottom gradient to blend into the charcoal background below */}
         <div className="absolute inset-0 bg-gradient-to-b from-transparent via-transparent to-background" />
       </div>
