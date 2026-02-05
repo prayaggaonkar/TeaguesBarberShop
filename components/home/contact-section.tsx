@@ -1,5 +1,5 @@
 import { MapPin, Phone, Clock, ArrowRight } from "lucide-react";
-import { BookingDialog } from "@/components/booking-dialog";
+import { BookingPopup } from "@/components/booking-popup";
 
 export function ContactSection() {
   return (
@@ -76,16 +76,16 @@ export function ContactSection() {
               </div>
             </div>
 
-            <BookingDialog className="group inline-flex items-center gap-2 px-8 py-4 text-white text-sm uppercase tracking-widest hover:bg-barber-red/90 transition-all duration-300 shadow-lg shadow-barber-red/20 bg-accent">
+            <BookingPopup className="group inline-flex items-center gap-2 px-8 py-4 text-white text-sm uppercase tracking-widest hover:bg-barber-red/90 transition-all duration-300 shadow-lg shadow-barber-red/20 bg-accent">
               Book Your Appointment
               <ArrowRight className="h-4 w-4 group-hover:translate-x-1 transition-transform" />
-            </BookingDialog>
+            </BookingPopup>
           </div>
 
           {/* Map placeholder */}
           <div className="relative aspect-square lg:aspect-auto bg-secondary overflow-hidden">
             <iframe
-              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3156.5!2d-121.9358!3d37.7084!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x808fec5f9f5e3d59%3A0x0!2s7000%20Village%20Pkwy%20J%2C%20Dublin%2C%20CA%2094568!5e0!3m2!1sen!2sus!4v1706472000000!5m2!1sen!2sus"
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3156.5!2d-121.9355!3d37.7083!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x808fec5f9f5e3d59%3A0x0!2s7000%20Village%20Pkwy%20J%2C%20Dublin%2C%20CA%2094568!5e0!3m2!1sen!2sus!4v1706472000000!5m2!1sen!2sus"
               width="100%"
               height="100%"
               style={{ border: 0, minHeight: "400px" }}

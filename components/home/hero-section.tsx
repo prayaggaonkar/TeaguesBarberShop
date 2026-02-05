@@ -1,5 +1,5 @@
 import { ArrowRight } from "lucide-react";
-import { BookingDialog } from "@/components/booking-dialog";
+import { BookingPopup } from "@/components/booking-popup";
 
 export function HeroSection() {
   return (
@@ -43,10 +43,10 @@ export function HeroSection() {
           {"Best Barbershop in the Tri-Valley. Established in 1991."}
         </p>
         <div className="flex flex-col sm:flex-row items-center justify-center gap-4 animate-in fade-in slide-in-from-bottom-4 duration-700 delay-300">
-          <BookingDialog className="group inline-flex items-center gap-2 px-8 py-4 text-white text-sm uppercase tracking-widest hover:bg-barber-red/90 transition-all duration-300 shadow-lg shadow-barber-red/20 bg-accent">
+          <BookingPopup className="group inline-flex items-center gap-2 px-8 py-4 text-white text-sm uppercase tracking-widest hover:bg-barber-red/90 transition-all duration-300 shadow-lg shadow-barber-red/20 bg-accent">
             Book Your Appointment
             <ArrowRight className="h-4 w-4 group-hover:translate-x-1 transition-transform" />
-          </BookingDialog>
+          </BookingPopup>
           <a
             href="/services"
             className="inline-flex items-center gap-2 px-8 py-4 border text-foreground text-sm uppercase tracking-widest hover:bg-barber-red/10 hover:border-barber-red hover:text-barber-red transition-colors duration-300 border-accent"

@@ -2,7 +2,7 @@ import { Metadata } from "next";
 import { Navigation } from "@/components/navigation";
 import { Footer } from "@/components/footer";
 import { ArrowRight } from "lucide-react";
-import { BookingDialog } from "@/components/booking-dialog";
+import { BookingPopup } from "@/components/booking-popup";
 
 export const metadata: Metadata = {
   title: "Services | Teague's Barber Shop",
@@ -170,10 +170,10 @@ export default function ServicesPage() {
             Book your appointment today and discover why our clients keep coming
             back. Walk-ins recommended, but appointments are welcome.
           </p>
-          <BookingDialog className="group inline-flex items-center gap-2 px-8 py-4 text-white text-sm uppercase tracking-widest hover:bg-barber-red/90 transition-all duration-300 shadow-lg shadow-barber-red/20 bg-accent">
+          <BookingPopup className="group inline-flex items-center gap-2 px-8 py-4 text-white text-sm uppercase tracking-widest hover:bg-barber-red/90 transition-all duration-300 shadow-lg shadow-barber-red/20 bg-accent">
             Book Your Appointment
             <ArrowRight className="h-4 w-4 group-hover:translate-x-1 transition-transform" />
-          </BookingDialog>
+          </BookingPopup>
         </div>
       </section>
 

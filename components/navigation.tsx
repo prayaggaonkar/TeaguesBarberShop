@@ -3,7 +3,7 @@
 import Link from "next/link";
 import { useState } from "react";
 import { Menu, X } from "lucide-react";
-import { BookingDialog } from "@/components/booking-dialog";
+import { BookingPopup } from "@/components/booking-popup";
 
 const navLinks = [
   { href: "/", label: "Home" },
@@ -45,9 +45,9 @@ export function Navigation() {
                 {link.label}
               </Link>
             ))}
-            <BookingDialog className="ml-4 px-6 py-2.5 bg-accent text-accent-foreground text-sm uppercase tracking-widest hover:bg-accent/90 transition-colors duration-300">
+            <BookingPopup className="ml-4 px-6 py-2.5 bg-accent text-accent-foreground text-sm uppercase tracking-widest hover:bg-accent/90 transition-colors duration-300">
               Book Now
-            </BookingDialog>
+            </BookingPopup>
           </div>
 
           {/* Mobile Menu Button */}
@@ -75,9 +75,9 @@ export function Navigation() {
                   {link.label}
                 </Link>
               ))}
-              <BookingDialog className="mt-2 px-6 py-3 bg-accent text-accent-foreground text-sm uppercase tracking-widest text-center hover:bg-accent/90 transition-colors">
+              <BookingPopup className="mt-2 px-6 py-3 bg-accent text-accent-foreground text-sm uppercase tracking-widest text-center hover:bg-accent/90 transition-colors">
                 Book Now
-              </BookingDialog>
+              </BookingPopup>
             </div>
           </div>
         )}
