@@ -19,7 +19,7 @@ const services = [
   },
   {
     name: "Beard Trim",
-    description: "An expert shaping and trim to maintain your beard's best look.",
+    description: "Expert shaping and trimming to maintain your beard's best look.",
     price: "$20",
   },
 ];
