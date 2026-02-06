@@ -54,7 +54,7 @@ export function AboutSection() {
             <h2 className="font-serif text-4xl lg:text-5xl tracking-tight text-foreground mb-8 text-balance">
               A Legacy of
               <br />
-              <span className="text-accent">Excellence</span>
+              <span className="text-accent">Haircuts</span>
             </h2>
             <p className="text-muted-foreground leading-relaxed mb-8">
               Since 1991, Teague&apos;s Barbershop has served the Tri-Valley with pristine haircuts for years. Full of lively music, engaging barbers, and a community like no other, Teague&apos;s is the spot for you.      
