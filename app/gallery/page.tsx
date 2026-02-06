@@ -37,9 +37,7 @@ export default function GalleryPage() {
             <div className="w-8 h-0.5 bg-barber-red" />
           </div>
           <p className="max-w-2xl text-muted-foreground leading-relaxed">
-            Every cut tells a story. Browse through our work and see the
-            precision, style, and attention to detail that defines Teague&apos;s
-            Barber Shop.
+            Every cut tells a story. Browse through our work and see the precision, style, and attention to detail that defines Teague's Barber Shop.
           </p>
         </div>
       </section>

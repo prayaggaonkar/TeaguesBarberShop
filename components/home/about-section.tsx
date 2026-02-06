@@ -19,7 +19,7 @@ const features = [
     icon: Users,
     title: "Community First",
     description:
-      "More than a barbershop—a gathering place where stories are shared and friendships grow.",
+      "More than a barbershop; it's a place where stories are shared and friendships grow.",
     color: "accent",
   },
 ];
@@ -54,16 +54,13 @@ export function AboutSection() {
             <h2 className="font-serif text-4xl lg:text-5xl tracking-tight text-foreground mb-8 text-balance">
               A Legacy of
               <br />
-              <span className="text-accent">Excellence</span>
+              <span className="text-accent">Haircuts</span>
             </h2>
             <p className="text-muted-foreground leading-relaxed mb-8">
               Since 1991, Teague&apos;s Barbershop has served the Tri-Valley with pristine haircuts for years. Full of lively music, engaging barbers, and a community like no other, Teague&apos;s is the spot for you.      
             </p>
             <p className="text-muted-foreground leading-relaxed mb-12">
-              Our skilled barbers combine decades of experience with a genuine
-              passion for their craft. Whether you&apos;re seeking a classic cut
-              or a modern fade, we take pride in delivering precision and style
-              that exceeds expectations.
+              Our barbers combine decades of experience with passion for their work. Whether you&apos;re seeking a classic haircut or a modern fade, we take pride in delivering precise and stylish cuts that exceed expectations.
             </p>
 
             {/* Features */}

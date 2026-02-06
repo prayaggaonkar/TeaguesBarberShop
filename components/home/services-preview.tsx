@@ -4,12 +4,12 @@ import { ArrowRight } from "lucide-react";
 const services = [
   {
     name: "Classic Haircut",
-    description: "Precision cut tailored to your style and face shape",
+    description: "A precise haircut tailored to your style and face shape.",
     price: "$40",
   },
   {
     name: "Fade",
-    description: "Seamless gradient from skin to your desired length. Available in low, mid, or high variations.",
+    description: "A seamless gradient from skin to your desired length. Available in low, mid, or high variations.",
     price: "$40",
   },
   {
@@ -53,8 +53,7 @@ export function ServicesPreview() {
             <div className="w-12 h-0.5 bg-barber-blue" />
           </div>
           <p className="mx-auto max-w-2xl text-muted-foreground leading-relaxed">
-            From classic cuts to modern styles, each service is delivered with
-            precision and care. Experience the difference of true craftsmanship.
+            From classic haircuts to modern styles, each service is delivered with precision and care. Experience the difference of Teague's.
           </p>
         </div>
 
