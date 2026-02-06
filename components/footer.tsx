@@ -24,8 +24,7 @@ export function Footer() {
               </div>
             </Link>
             <p className="mt-6 text-sm text-muted-foreground leading-relaxed">
-              A legacy of craftsmanship since day one. Where tradition meets
-              modern style in Dublin, California.
+              A legacy of hair cutting and craftmanship since 1991. Located in Dublin, California.
             </p>
           </div>
 
