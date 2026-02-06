@@ -53,8 +53,7 @@ export function ServicesPreview() {
             <div className="w-12 h-0.5 bg-barber-blue" />
           </div>
           <p className="mx-auto max-w-2xl text-muted-foreground leading-relaxed">
-            From classic cuts to modern styles, each service is delivered with
-            precision and care. Experience the difference of true craftsmanship.
+            From classic haircuts to modern styles, each service is delivered with precision and care. Experience the difference of Teague's.
           </p>
         </div>
 
