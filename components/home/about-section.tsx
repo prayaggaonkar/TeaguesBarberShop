@@ -19,7 +19,7 @@ const features = [
     icon: Users,
     title: "Community First",
     description:
-      "More than a barbershop—a gathering place where stories are shared and friendships grow.",
+      "More than a barbershop; it's a place where stories are shared and friendships grow.",
     color: "accent",
   },
 ];
