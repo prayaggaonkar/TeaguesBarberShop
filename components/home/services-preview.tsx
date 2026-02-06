@@ -4,12 +4,12 @@ import { ArrowRight } from "lucide-react";
 const services = [
   {
     name: "Classic Haircut",
-    description: "Precision cut tailored to your style and face shape",
+    description: "A precise haircut tailored to your style and face shape.",
     price: "$40",
   },
   {
     name: "Fade",
-    description: "Seamless gradient from skin to your desired length. Available in low, mid, or high variations.",
+    description: "A seamless gradient from skin to your desired length. Available in low, mid, or high variations.",
     price: "$40",
   },
   {
@@ -19,7 +19,7 @@ const services = [
   },
   {
     name: "Beard Trim",
-    description: "Expert shaping and trimming to maintain your beard's best look.",
+    description: "An expert shaping and trim to maintain your beard's best look.",
     price: "$20",
   },
 ];
