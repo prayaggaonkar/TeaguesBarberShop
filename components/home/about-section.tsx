@@ -60,10 +60,7 @@ export function AboutSection() {
               Since 1991, Teague&apos;s Barbershop has served the Tri-Valley with pristine haircuts for years. Full of lively music, engaging barbers, and a community like no other, Teague&apos;s is the spot for you.      
             </p>
             <p className="text-muted-foreground leading-relaxed mb-12">
-              Our skilled barbers combine decades of experience with a genuine
-              passion for their craft. Whether you&apos;re seeking a classic cut
-              or a modern fade, we take pride in delivering precision and style
-              that exceeds expectations.
+              Our barbers combine decades of experience with passion for their work. Whether you&apos;re seeking a classic haircut or a modern fade, we take pride in delivering precise and stylish cuts that exceed expectations.
             </p>
 
             {/* Features */}
