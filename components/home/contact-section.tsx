@@ -54,7 +54,7 @@ export function ContactSection() {
                     href="tel:+19257847549"
                     className="text-muted-foreground hover:text-foreground transition-colors"
                   >
-                    (925) 784-7549
+                    (925) 883-9229
                   </a>
                 </div>
               </div>
