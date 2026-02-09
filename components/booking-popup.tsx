@@ -78,7 +78,7 @@ export function BookingPopup({ children, className }: BookingPopupProps) {
                     href="tel:+19257847549"
                     className="inline-block text-accent text-2xl font-bold tracking-wide hover:text-accent/80 transition-colors"
                   >
-                    (925) 784-7549
+                    (925) 883-9229
                   </a>
 
                   <p className="mt-6 text-xs text-muted-foreground">
