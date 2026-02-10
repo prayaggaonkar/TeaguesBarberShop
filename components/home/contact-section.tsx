@@ -51,7 +51,7 @@ export function ContactSection() {
                     Phone
                   </h3>
                   <a
-                    href="tel:+19257847549"
+                    href="tel:+19258339229"
                     className="text-muted-foreground hover:text-foreground transition-colors"
                   >
                     (925) 833-9229
