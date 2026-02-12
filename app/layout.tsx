@@ -8,8 +8,8 @@ const inter = Inter({ subsets: ["latin"] });
 const playfair = Playfair_Display({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "Teague's Barber Shop | Dublin, CA",
-  description: 'Premium barbershop in Dublin, California. Classic cuts, modern style. Experience the legacy of traditional barbering with contemporary expertise.',
+  title: "Teague's Barber Shop",
+  description: 'Premium barbershop in Dublin, California. Classic cuts, modern style.',
   generator: 'v0.app',
   icons: {
     icon: '/images/LogoFix.png',
