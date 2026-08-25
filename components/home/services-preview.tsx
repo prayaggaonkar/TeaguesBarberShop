@@ -5,22 +5,22 @@ const services = [
   {
     name: "Classic Haircut",
     description: "A precise haircut tailored to your style and face shape.",
-    price: "$40",
+    price: "$50",
   },
   {
     name: "Fade",
     description: "A seamless gradient from skin to your desired length. Available in low, mid, or high variations.",
-    price: "$40",
+    price: "$50",
   },
   {
     name: "Taper",
     description: "A smooth taper at the neck and sides that keeps length on top. Available in low, mid, or high variations.",
-    price: "$40",
+    price: "$50",
   },
   {
     name: "Beard Trim",
     description: "Expert shaping and trimming to maintain your beard's best look.",
-    price: "$20",
+    price: "$30",
   },
 ];
 
