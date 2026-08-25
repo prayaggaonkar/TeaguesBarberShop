@@ -18,28 +18,28 @@ const services = [
         name: "Classic Haircut",
         description:
           "A precision cut tailored to your unique style and face shape.",
-        price: "$40",
+        price: "$50",
         duration: "30 min",
       },
       {
         name: "Fade",
         description:
           "Seamless gradient from skin to your desired length. Available in low, mid, or high variations.",
-        price: "$40",
+        price: "$50",
         duration: "40 min",
       },
       {
         name: "Taper",
         description:
           "A smooth taper at the neck and sides that keeps length on top. Available in low, mid, or high variations.",
-        price: "$40",
+        price: "$50",
         duration: "40 min",
       },
       {
         name: "Kids & Seniors",
         description:
           "For our younger clients (12 and under) and seniors. Same precision and care in a relaxed environment.",
-        price: "$33",
+        price: "$43",
         duration: "35 min",
       },
     ],
@@ -51,14 +51,14 @@ const services = [
         name: "Beard Trim",
         description:
           "Expert shaping and trimming to maintain your beard's best look.",
-        price: "$20",
+        price: "$30",
         duration: "20 min",
       },
       {
         name: "Line Up",
         description:
           "Custom beard shaping with detailed line work and precision edges for a sculpted appearance.",
-        price: "$25",
+        price: "$35",
         duration: "25 min",
       },
       {
